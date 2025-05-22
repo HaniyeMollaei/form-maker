@@ -32,7 +32,7 @@ export const generateInvitationHTMLString = (data)=>{
                   display: block;
                   width: 120px;
                   padding: 8px;
-                  background-color: #3730a3;
+                  background-color: #A62626;
                   color: white !important;
                   text-align:center;
                   text-decoration: none;

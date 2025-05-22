@@ -20,9 +20,9 @@ export default function AddNewFormPage() {
 export async function getServerSideProps(ctx) {
   const token = verifyTokenServerSide(ctx);
 
-  if (!token) {
-    return { redirect: { destination: "/login", permanent: false } };
-  }
+  // if (!token) {
+  //   return { redirect: { destination: "/login", permanent: false } };
+  // }
 
   return {
     props: {},

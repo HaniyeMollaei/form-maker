@@ -8,7 +8,7 @@ class MainDocument extends Document {
 
   render() {
     return (
-      <Html>
+        <Html lang="fa" dir="rtl">
         <Head />
         <body>
           <Main />

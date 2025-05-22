@@ -29,7 +29,11 @@ export default function FormEditor() {
     <>
       <div className={`formEditor flex flex-col gap-2 w-[468px] sm:w-[468px] md:w-[568px] lg:w-[768px] h-[600px] overflow-y-scroll hideScrollbar`}>
         <header>
-          <form onSubmit={(e)=>e.preventDefault()} className="flex flex-col gap-4 p-4 shadow-sm border-t-8 border-t-indigo-800 rounded  bg-white">
+          <form
+              onSubmit={(e) => e.preventDefault()}
+              className="flex flex-col gap-4 p-4 shadow-sm border-t-8 rounded bg-white"
+              style={{ borderTopColor: "#A62626" }}
+          >
             <fieldset>
               <input
                 type="text"

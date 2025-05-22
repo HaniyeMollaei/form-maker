@@ -17,7 +17,7 @@ export default function RegisterForm() {
       notify("success", "Registered successfully").console.log(res);
     } catch (error) {
       const { response } = error;
-      notify("error", response.data.message);
+      notify("error", response?.data?.message || "Something went wrong");
     }
   };
 
